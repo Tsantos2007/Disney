@@ -1,0 +1,107 @@
+body {
+    background:linear-gradient(#020204, #232737, #2A2F3F, #232737, #020204);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+}
+.adivclass {
+text-align: center;
+}
+nav a{
+    margin: 20px;
+    text-decoration: none;
+    width: 100%;
+    padding: 40px 0;
+    font-size: 36px;
+    color: #E4E5F5;
+    
+    transition: height 1s, font-size 1s;
+
+    /*width: 20%;
+    text-align: center;
+    padding: 20px 0;
+    transition: all 0.7s ease;
+    color: #E4E5F5;
+    font-size: 36px;*/
+}
+nav {
+    padding: 20px 0;
+}
+nav a:active,
+nav a:hover {
+    font-size: 28px;
+}
+.imgnav {
+    height: 54px;
+    right: 0;
+    margin-top: 10px;
+
+    transition: height 1s;
+}
+.imgnav:hover,
+.imgnav:active {
+    height: 60px;
+}
+.imgheader {
+    border: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px #141815;
+    transition: border 0.5s;
+    
+}
+.imgheader:hover {
+    border: 5px solid rgb(233, 230, 255);
+    transition: border 0.5s;
+}
+.imgpng {
+    margin-top: 50px;
+    width: 45%;
+    height:100%;
+    padding: 10px;
+    background: linear-gradient(#2F313D, #1E1F2A);
+    border:3px solid #3f3f44;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px #141815;
+}
+.imgpng:hover {
+    border:3px solid #6e6e72;
+}
+.png1 {
+    float: left;
+    margin-left: 20px;
+
+}
+.png2 {
+    float: right;
+    margin-right: 20px;
+}
+
+
+.episodes {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: whitesmoke;
+    margin: 20px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.imgepone {
+    margin-top: 20px;
+    width: 45%;
+    height:100%;
+    float: left;
+    border-radius: 20px;
+
+}
+
+.divepisodeone {
+    float: left
+}
